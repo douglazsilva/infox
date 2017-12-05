@@ -90,7 +90,7 @@ public class TelaCliente extends javax.swing.JInternalFrame {
             //desabilitar botao adicionar
             btnAdicionar.setEnabled(false);
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, e);
+            JOptionPane.showMessageDialog(null, "Efetue uma busca com onome do cliente na caixa de texto acima!");
         }
     }
 
